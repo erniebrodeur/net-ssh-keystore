@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'net-ssh-keystore/version'
+require 'net/ssh/keystore/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "net-ssh-keystore"
